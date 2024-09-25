@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    color: white
+}
+
+@media screen/*type*/ and (max-width:480px){
+    body{
+        background-color: red;
+    }
+} /*nested decoration*/
+
+@media screen/*type*/ and (max-width:320px){
+    body{
+        background-color: yellow;
+        color: black;
+    }
+}
+
+/*ALWAYS BIGGIEST TO SMALLEST111*/
+/*ORDER IS IMPORTANT!!!*/
+
